@@ -1,0 +1,7 @@
+{
+  "main": "./index.ts",
+  "name": "dep",
+  "private": true,
+  "type": "module",
+  "version": "0.0.1"
+}
