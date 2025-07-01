@@ -1,9 +1,8 @@
 {
-  "devDependencies": {
-    "netlify-cli": "22.2.1"
-  },
-  "name": "s-c05pu56492r-p1750774363538389",
-  "packageManager": "pnpm@10.12.4",
+  "name": "root",
   "private": true,
-  "version": "0.0.1"
+  "devDependencies": {
+    "netlify-cli": "22.2.1",
+    "typescript": "^5.0.4"
+  }
 }

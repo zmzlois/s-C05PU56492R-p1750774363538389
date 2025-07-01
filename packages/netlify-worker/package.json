@@ -1,0 +1,14 @@
+{
+  "name": "netlify-worker",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "netlify:deploy": "netlify deploy --build --skip-functions-cache"
+  },
+  "dependencies": {
+    "@org/generic": "workspace:*"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}
