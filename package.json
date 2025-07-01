@@ -1,8 +1,8 @@
 {
-  "name": "root",
-  "private": true,
   "devDependencies": {
     "netlify-cli": "22.2.1",
-    "typescript": "^5.0.4"
-  }
+    "typescript": "5.0.4"
+  },
+  "name": "root",
+  "private": true
 }

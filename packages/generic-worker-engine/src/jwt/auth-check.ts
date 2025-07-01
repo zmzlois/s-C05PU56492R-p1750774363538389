@@ -1,4 +1,4 @@
-import { jwtVerify, importJWK, decodeJwt } from 'jose';
+import { jwtVerify, importJWK, decodeJwt } from 'jose'
 
 export async function auth_check(request: Request) {
   // Force usage of jose to trigger the error
@@ -32,4 +32,4 @@ export async function auth_check(request: Request) {
 }
 
 // Export jose functions directly to force bundling
-export { jwtVerify, importJWK, decodeJwt };
+export { jwtVerify, importJWK, decodeJwt }

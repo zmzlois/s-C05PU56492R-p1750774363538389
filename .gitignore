@@ -1,5 +1,4 @@
-node_modules/
 .netlify/
-packages/ef/packages/
-
 dist/
+node_modules/
+packages/netlify-worker/packages/

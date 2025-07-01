@@ -1,11 +1,4 @@
 [build]
-command = "pnpm --filter @org/generic build"
-publish = "public"
-edge_functions = "edge-functions"
-
-[functions]
-node_bundler = "esbuild"
-
-[[edge_functions]]
-function = "test_worker"
-path = "/*"
+  command = "pnpm --filter @org/generic build"
+  edge_functions = "/packages/netlify-worker/edge-functions/"
+  publish = "/packages/netlify-worker/public/"
