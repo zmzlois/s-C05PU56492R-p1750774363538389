@@ -1,3 +1,5 @@
 node_modules/
 .netlify/
 packages/ef/packages/
+
+dist/
